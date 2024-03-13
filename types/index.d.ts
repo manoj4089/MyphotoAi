@@ -23,8 +23,8 @@ declare type CreateUserParams = {
       title: string;
       publicId: string;
       transformationType: string;
-      width: number;
-      height: number;
+      width?: number;
+      height?: number;
       config: any;
       secureURL: string;
       transformationURL: string;
@@ -42,8 +42,8 @@ declare type CreateUserParams = {
       title: string;
       publicId: string;
       transformationType: string;
-      width: number;
-      height: number;
+      width?: number;
+      height?: number;
       config: any;
       secureURL: string;
       transformationURL: string;
