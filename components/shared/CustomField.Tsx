@@ -41,3 +41,5 @@ export const CustomField = ({
     />
   );
 };
+
+export default CustomField
