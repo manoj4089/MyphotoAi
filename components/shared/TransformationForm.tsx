@@ -34,7 +34,7 @@ import { getCldImageUrl } from "next-cloudinary"
 import { addImage, updateImage } from "@/lib/actions/image.actions"
 import { useRouter } from "next/navigation"
 import { InsufficientCreditsModal } from "./InsufficientCreditsModal"
-import  { CustomField }  from "@/components/shared/CustomField"
+import { CustomField } from "./CustomField"
 
 
  
