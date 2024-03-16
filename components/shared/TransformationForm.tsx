@@ -35,6 +35,8 @@ import { addImage, updateImage } from "@/lib/actions/image.actions"
 import { useRouter } from "next/navigation"
 import { InsufficientCreditsModal } from "./InsufficientCreditsModal"
 import { CustomField } from "./CustomField"
+
+
  
 export const formSchema = z.object({
   title: z.string(),
